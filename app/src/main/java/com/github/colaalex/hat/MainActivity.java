@@ -137,8 +137,8 @@ public class MainActivity extends AppCompatActivity {
     void endCircle() {
         circle++;
         if (circle < CIRCLES_COUNT) {
-            showSplash();
             teamNumber = 0;
+            showSplash();
             resetWords();
         } else {
             endGame();

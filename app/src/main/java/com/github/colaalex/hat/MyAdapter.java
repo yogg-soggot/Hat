@@ -36,14 +36,12 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
     }
 
     class ViewHolder extends RecyclerView.ViewHolder{
-        TextView item;
         TextView name;
         TextView score;
 
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            item = itemView.findViewById(R.id.item);
             name = itemView.findViewById(R.id.textView);
             score = itemView.findViewById(R.id.textView2);
 
